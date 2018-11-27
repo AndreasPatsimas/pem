@@ -13,7 +13,7 @@ public class Manager extends Employee {
     
     private double bonus;
     
-    public Manager(String name, String surname, int age, int wage,double bonus) {
+    public Manager(String name, String surname, int age, double wage,double bonus) {
         super(name, surname, age, wage);
         this.bonus=wage+wage*bonus/100;
     }
