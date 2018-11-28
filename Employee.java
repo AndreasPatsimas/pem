@@ -25,13 +25,13 @@ public class Employee implements Person {
     
     
     @Override
-    public void getName(String name) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public String getName() {
+        return name;
     }
 
     @Override
-    public void getSurname(String surname) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public String getSurname() {
+        return surname;
     }
 
     @Override
