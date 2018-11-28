@@ -10,7 +10,7 @@ package pem;
  * @author andre
  */
 public interface Person {
-    public void getName(String name);
-    public void getSurname(String surname);
+    public String getName();
+    public String getSurname();
     public int getAge(int age);
 }
