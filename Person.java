@@ -12,5 +12,5 @@ package pem;
 public interface Person {
     public String getName();
     public String getSurname();
-    public int getAge(int age);
+    public int getAge();
 }
