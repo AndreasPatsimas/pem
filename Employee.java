@@ -35,7 +35,7 @@ public class Employee implements Person {
     }
 
     @Override
-    public int getAge(int age) {
+    public int getAge() {
         return age;
     }
 
